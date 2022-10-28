@@ -128,6 +128,7 @@ m5stack-fire.upload.tool.network=esp_ota
 
 m5stack-fire.upload.maximum_size=6553600
 m5stack-fire.upload.maximum_data_size=4521984
+m5stack-fire.upload.wait_for_upload_port=true
 m5stack-fire.upload.flags=
 m5stack-fire.upload.extra_flags=
 
@@ -210,6 +211,7 @@ m5stack-station.upload.tool.network=esp_ota
 
 m5stack-station.upload.maximum_size=6553600
 m5stack-station.upload.maximum_data_size=4521984
+m5stack-station.upload.wait_for_upload_port=true
 m5stack-station.upload.flags=
 m5stack-station.upload.extra_flags=
 
@@ -445,6 +447,11 @@ m5stick-c-plus.menu.DebugLevel.debug.build.code_debug=4
 m5stick-c-plus.menu.DebugLevel.verbose=Verbose
 m5stick-c-plus.menu.DebugLevel.verbose.build.code_debug=5
 
+m5stick-c-plus.menu.EraseFlash.none=Disabled
+m5stick-c-plus.menu.EraseFlash.none.upload.erase_cmd=
+m5stick-c-plus.menu.EraseFlash.all=Enabled
+m5stick-c-plus.menu.EraseFlash.all.upload.erase_cmd=-e
+
 ##############################################################
 
 m5stack-atom.name=M5Stack-ATOM
@@ -531,7 +538,6 @@ m5stack-core2.upload.tool.network=esp_ota
 
 m5stack-core2.upload.maximum_size=6553600
 m5stack-core2.upload.maximum_data_size=4521984
-m5stack-core2.upload.wait_for_upload_port=true
 m5stack-core2.upload.flags=
 m5stack-core2.upload.extra_flags=
 
@@ -648,6 +654,7 @@ m5stack-tough.upload.tool.network=esp_ota
 
 m5stack-tough.upload.maximum_size=1310720
 m5stack-tough.upload.maximum_data_size=327680
+m5stack-tough.upload.wait_for_upload_port=true
 m5stack-tough.upload.flags=
 m5stack-tough.upload.extra_flags=
 
@@ -794,6 +801,11 @@ m5stack-tough.menu.DebugLevel.debug.build.code_debug=4
 m5stack-tough.menu.DebugLevel.verbose=Verbose
 m5stack-tough.menu.DebugLevel.verbose.build.code_debug=5
 
+m5stack-tough.menu.EraseFlash.none=Disabled
+m5stack-tough.menu.EraseFlash.none.upload.erase_cmd=
+m5stack-tough.menu.EraseFlash.all=Enabled
+m5stack-tough.menu.EraseFlash.all.upload.erase_cmd=-e
+
 ##############################################################
 
 m5stack-timer-cam.name=M5Stack-Timer-CAM
@@ -807,7 +819,6 @@ m5stack-timer-cam.upload.tool.network=esp_ota
 
 m5stack-timer-cam.upload.maximum_size=1310720
 m5stack-timer-cam.upload.maximum_data_size=327680
-m5stack-timer-cam.upload.wait_for_upload_port=true
 m5stack-timer-cam.upload.flags=
 m5stack-timer-cam.upload.extra_flags=
 
@@ -907,7 +918,13 @@ m5stack-timer-cam.menu.EraseFlash.all.upload.erase_cmd=-e
 
 m5stack-unit-cam.name=M5Stack-Unit-CAM
 
+m5stack-unit-cam.bootloader.tool=esptool_py
+m5stack-unit-cam.bootloader.tool.default=esptool_py
+
 m5stack-unit-cam.upload.tool=esptool_py
+m5stack-unit-cam.upload.tool.default=esptool_py
+m5stack-unit-cam.upload.tool.network=esp_ota
+
 m5stack-unit-cam.upload.maximum_size=1310720
 m5stack-unit-cam.upload.maximum_data_size=327680
 m5stack-unit-cam.upload.wait_for_upload_port=true
@@ -994,11 +1011,22 @@ m5stack-unit-cam.menu.DebugLevel.debug.build.code_debug=4
 m5stack-unit-cam.menu.DebugLevel.verbose=Verbose
 m5stack-unit-cam.menu.DebugLevel.verbose.build.code_debug=5
 
+m5stack-unit-cam.menu.EraseFlash.none=Disabled
+m5stack-unit-cam.menu.EraseFlash.none.upload.erase_cmd=
+m5stack-unit-cam.menu.EraseFlash.all=Enabled
+m5stack-unit-cam.menu.EraseFlash.all.upload.erase_cmd=-e
+
 ##############################################################
 
 m5stack-poe-cam.name=M5Stack-PoE-CAM
 
+m5stack-poe-cam.bootloader.tool=esptool_py
+m5stack-poe-cam.bootloader.tool.default=esptool_py
+
 m5stack-poe-cam.upload.tool=esptool_py
+m5stack-poe-cam.upload.tool.default=esptool_py
+m5stack-poe-cam.upload.tool.network=esp_ota
+
 m5stack-poe-cam.upload.maximum_size=1310720
 m5stack-poe-cam.upload.maximum_data_size=327680
 m5stack-poe-cam.upload.wait_for_upload_port=true
@@ -1092,14 +1120,24 @@ m5stack-poe-cam.menu.DebugLevel.debug.build.code_debug=4
 m5stack-poe-cam.menu.DebugLevel.verbose=Verbose
 m5stack-poe-cam.menu.DebugLevel.verbose.build.code_debug=5
 
+m5stack-poe-cam.menu.EraseFlash.none=Disabled
+m5stack-poe-cam.menu.EraseFlash.none.upload.erase_cmd=
+m5stack-poe-cam.menu.EraseFlash.all=Enabled
+m5stack-poe-cam.menu.EraseFlash.all.upload.erase_cmd=-e
+
 ##############################################################
 
 m5stack-paper.name=M5Stack-Paper
 
+m5stack-paper.bootloader.tool=esptool_py
+m5stack-paper.bootloader.tool.default=esptool_py
+
 m5stack-paper.upload.tool=esptool_py
+m5stack-paper.upload.tool.default=esptool_py
+m5stack-paper.upload.tool.network=esp_ota
+
 m5stack-paper.upload.maximum_size=6553600
 m5stack-paper.upload.maximum_data_size=4521984
-m5stack-paper.upload.wait_for_upload_port=true
 m5stack-paper.upload.flags=
 m5stack-paper.upload.extra_flags=
 
@@ -1198,6 +1236,11 @@ m5stack-paper.menu.DebugLevel.debug.build.code_debug=4
 m5stack-paper.menu.DebugLevel.verbose=Verbose
 m5stack-paper.menu.DebugLevel.verbose.build.code_debug=5
 
+m5stack-paper.menu.EraseFlash.none=Disabled
+m5stack-paper.menu.EraseFlash.none.upload.erase_cmd=
+m5stack-paper.menu.EraseFlash.all=Enabled
+m5stack-paper.menu.EraseFlash.all.upload.erase_cmd=-e
+
 ##############################################################
 
 m5stack-coreink.name=M5Stack-CoreInk
@@ -1282,9 +1325,16 @@ m5stack-coreink.menu.EraseFlash.all.upload.erase_cmd=-e
 
 stamp-pico.name=STAMP-PICO
 
+stamp-pico.bootloader.tool=esptool_py
+stamp-pico.bootloader.tool.default=esptool_py
+
 stamp-pico.upload.tool=esptool_py
+stamp-pico.upload.tool.default=esptool_py
+stamp-pico.upload.tool.network=esp_ota
+
 stamp-pico.upload.maximum_size=1310720
 stamp-pico.upload.maximum_data_size=327680
+stamp-pico.upload.wait_for_upload_port=true
 stamp-pico.upload.flags=
 stamp-pico.upload.extra_flags=
 
@@ -1341,19 +1391,29 @@ stamp-pico.menu.DebugLevel.debug.build.code_debug=4
 stamp-pico.menu.DebugLevel.verbose=Verbose
 stamp-pico.menu.DebugLevel.verbose.build.code_debug=5
 
+stamp-pico.menu.EraseFlash.none=Disabled
+stamp-pico.menu.EraseFlash.none.upload.erase_cmd=
+stamp-pico.menu.EraseFlash.all=Enabled
+stamp-pico.menu.EraseFlash.all.upload.erase_cmd=-e
+
 ##############################################################
 
 stamp-c3.name=STAMP-C3
 stamp-c3.vid.0=0x303a
 stamp-c3.pid.0=0x1001
 
+stamp-c3.bootloader.tool=esptool_py
+stamp-c3.bootloader.tool.default=esptool_py
+
 stamp-c3.upload.tool=esptool_py
+stamp-c3.upload.tool.default=esptool_py
+stamp-c3.upload.tool.network=esp_ota
+
 stamp-c3.upload.maximum_size=1310720
 stamp-c3.upload.maximum_data_size=327680
+stamp-c3.upload.wait_for_upload_port=false
 stamp-c3.upload.flags=
 stamp-c3.upload.extra_flags=
-stamp-c3.upload.use_1200bps_touch=false
-stamp-c3.upload.wait_for_upload_port=false
 
 stamp-c3.serial.disableDTR=false
 stamp-c3.serial.disableRTS=false
@@ -1481,5 +1541,10 @@ stamp-c3.menu.DebugLevel.debug=Debug
 stamp-c3.menu.DebugLevel.debug.build.code_debug=4
 stamp-c3.menu.DebugLevel.verbose=Verbose
 stamp-c3.menu.DebugLevel.verbose.build.code_debug=5
+
+stamp-c3.menu.EraseFlash.none=Disabled
+stamp-c3.menu.EraseFlash.none.upload.erase_cmd=
+stamp-c3.menu.EraseFlash.all=Enabled
+stamp-c3.menu.EraseFlash.all.upload.erase_cmd=-e
 
 ###############################################################
