@@ -10,12 +10,12 @@
         {
           "name": "M5Stack",
           "architecture": "esp32",
-          "version": "2.0.5+1.0",
+          "version": "2.0.5-1.0",
           "category": "M5Stack",
           "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.5.zip",
           "archiveFileName": "esp32-2.0.5.zip",
-          "checksum": "SHA-256:9141be786524a8b7a0978dbcd35fd0205175a858eed69f1ef8c947974c0563cd",
-          "size": "250355049",
+          "checksum": "SHA-256:b878a6eecefbf98e403fd5433c78965e7c57e3d39d280a6490655404be90d6e2",
+          "size": "250363319",
           "help": {
             "online": ""
           },
@@ -111,8 +111,8 @@
           "category": "M5Stack",
           "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.4.zip",
           "archiveFileName": "esp32-2.0.4.zip",
-          "checksum": "SHA-256:bb2946354a03c55e9f52b35ef13f47a3ccdad25b97082fca2b363d6f0d3a02f1",
-          "size": "237278617",
+          "checksum": "SHA-256:8e241fe6b325b3904d07e4068c2c49045da2e0bcb3858d4231223e02588b016a",
+          "size": "237278627",
           "help": {
             "online": ""
           },
