@@ -10,6 +10,114 @@
       },
       "platforms": [
         {
+          "name": "M5Stack",
+          "architecture": "esp32",
+          "version": "2.0.6-1.0",
+          "category": "M5Stack",
+          "url": "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/m5stack-2.0.6-1.0.zip",
+          "archiveFileName": "esp32-2.0.6-1.0.zip",
+          "checksum": "SHA-256:09aa9cbf8a81a9db796255aed4a5ec5c173c02962b1f06cd92e457fdb2180941",
+          "size": "253516588",
+          "help": {
+            "online": ""
+          },
+          "boards": [
+              {
+                "name": "M5Atom"
+              },
+              {
+                "name": "M5AtomS3"
+              },
+              {
+                "name": "M5Core"
+              },
+              {
+                "name": "Core2"
+              },
+              {
+                "name": "CoreInk"
+              },
+              {
+                "name": "FIRE"
+              },
+              {
+                "name": "M5Paper"
+              },
+              {
+                "name": "PoECAM"
+              },
+              {
+                "name": "M5Station"
+              },
+              {
+                "name": "TimerCAM"
+              },
+              {
+                "name": "Tough"
+              },
+              {
+                "name": "UnitCAM"
+              },
+              {
+                "name": "M5StickC"
+              },
+              {
+                "name": "M5StickC-Plus"
+              },
+              {
+                "name": "STAMP-PICO"
+              },
+              {
+                "name": "STAMP-C3"
+              },
+              {
+                "name": "STAMP-S3"
+              }
+            ],
+          "toolsDependencies": [
+            {
+              "packager": "m5stack",
+              "name": "riscv32-esp-elf-gcc",
+              "version": "gcc8_4_0-esp-2021r2-patch5"
+            },
+            {
+              "packager": "m5stack",
+              "name": "xtensa-esp32-elf-gcc",
+              "version": "gcc8_4_0-esp-2021r2-patch5"
+            },
+            {
+              "packager": "m5stack",
+              "name": "xtensa-esp32s2-elf-gcc",
+              "version": "gcc8_4_0-esp-2021r2-patch5"
+            },
+            {
+              "packager": "m5stack",
+              "name": "xtensa-esp32s3-elf-gcc",
+              "version": "gcc8_4_0-esp-2021r2-patch5"
+            },
+            {
+              "packager": "m5stack",
+              "name": "esptool_py",
+              "version": "4.2.1"
+            },
+            {
+              "packager": "m5stack",
+              "name": "openocd-esp32",
+              "version": "v0.11.0-esp32-20220706"
+            },
+            {
+              "packager": "m5stack",
+              "name": "mkspiffs",
+              "version": "0.2.3"
+            },
+            {
+              "packager": "m5stack",
+              "name": "mklittlefs",
+              "version": "3.0.0-gnu12-dc7f933"
+            }
+          ]
+      },
+        {
             "name": "M5Stack",
             "architecture": "esp32",
             "version": "2.0.6",
